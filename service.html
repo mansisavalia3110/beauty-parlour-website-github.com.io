@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- style css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <!-- responsive css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='responsive/responsive.css'>
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- bootstrap icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- scroll animation link -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animate style link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- jquery link -->
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+  
+</head>
+<style>
+  html{
+    scroll-behavior: smooth;
+  }
+</style>
+<body>
+<!-- navbar start here -->
+  <nav class="navbar navbar-expand-xl sticky-top">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="images/logo.svg" alt="logo">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+      <div class="offcanvas-header">
+        <img class="offcanvas-title" id="offcanvasNavbarLabel" src="images/logo.svg" alt="logo">
+        <a data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg text-light"></i></a>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-1">
+          <li class="nav-item"><a class="nav-link" id="link" href="index.html">home</a></li>
+    
+          <li class="nav-item"><a class="nav-link" id="link" href="service.html">services</a></li>
+    
+          <li class="nav-item"><a class="nav-link" id="link" href="bride.html">bridal</a></li>
+    
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="link" data-bs-toggle="dropdown" href="cource.html">Courses</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="link1" href="basic cource.html">basic courses</a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" id="link1" href="advance cource.html">advance courses</a></li>
+          </ul>
+          </li>
+    
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="link" data-bs-toggle="dropdown" href="appointment.html">appointment</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="link1" href="login.html">login</a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" id="link1" href="signup.html">sign up</a></li>
+          </ul>
+          </li>
+    
+          <li class="nav-item"><a class="nav-link" id="link" href="contact.html">contact us</a></li>
+        </ul>
+        <form class="d-flex form">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <!-- toggle -->
+    <a class="navbar-toggler" id="toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="bi bi-list"></span>
+    </a>
+    </div>
+  </nav>
+  
+  
+  
+<!-- services start here -->
+  <section id="services">
+  <!-- <div class=""> -->
+    <div class="col-2 float-left service-list">
+      <div class="Service-icon1">
+        <a href="#nail"><img src="images/nail polish.png" alt="nail-polish"></a>
+        <p>nails</p>
+      </div><br>
+    
+      <div class="Service-icon1">
+        <a href="#brow"><img src="images/brow.png" alt="brow"></a>
+        <p>brow</p>
+      </div><br>
+    
+      <div class="Service-icon1">
+        <a href="#hair"><img src="images/hair.png" alt="hair"></a>
+        <p>hair</p>
+      </div><br>
+    
+      <div class="Service-icon1">
+        <a href="#makeup"><img src="images/makeup.png" alt="makeup"></a>
+        <p>makeup</p>
+      </div>
+    </div>
+  
+    <div class="col-9 float-right service-content">
+      <div id="nail">
+        <h3>nail</h3>
+        <p>Get your nails done for great mood.<br>Simple pleasures can make your week, not just day.</p>
+      </div>
+          
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4 details">
+          <h3>Cherie Manicure &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $50</h3>
+          <p>Delicate cuticle work, buffing, and shaping. To finish, a relaxing hand massage, topped off with a perfect polish. (60 min)</p>
+        </div>
+    
+        <div class="col-sm-4  details">
+          <h3>Buff Manicure &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $39</h3>
+          <p>Our natural look manicure – no polish, but all of the pampering. (20 min)</p>
+        </div>
+      </div>
+    
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4  details">
+          <h3>Gel Manicure &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $59</h3>
+          <p>All the features of our Cherie manicure, but finish with nontoxic Gel Polish instead. (40 min)</p>
+        </div>
+    
+        <div class="col-sm-4  details">
+          <h3>Cherie Pedicure &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $39</h3>
+          <p>Our natural look pedi – no polish, but all of the pampering. Revitalize tired feet. (30 min)</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <a type="button" class="btn" href="#">Book An Appointment</a>
+      </div>
+
+
+
+      <div id="brow">
+        <h3>brow</h3>
+        <p>Brows can change it all.<br>Try out styling and tinting your brows and see the difference.</p>
+      </div>
+          
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4 details">
+          <h3>Brow Wax & Style &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $29</h3>
+          <p>Includes a brow consultation,wax & style. (20 min)</p>
+        </div>
+    
+        <div class="col-sm-4  details">
+          <h3>Brow Trim &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $20</h3>
+          <p>Includes a brow consultation,trim & style. (20 min)</p>
+        </div>
+      </div>
+    
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4  details">
+          <h3>Bang Trim &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $19</h3>
+          <p>A trim on the bang area. Shampoo, conditioner and scalp massage not included. (15 min)</p>
+        </div>
+    
+        <div class="col-sm-4  details">
+          <h3>Brow Tweeze &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $20</h3>
+          <p>Includes a brow consultation,tweeze & style. (20 min)</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <a type="button" class="btn" href="#">Book An Appointment</a>
+      </div>
+       
+
+
+      <div id="hair">
+        <h3>hair</h3>
+        <p>Stylish hair cuts, gorgeous styling, incredible color services<br>and best hair treatments. Choose your dream service!.</p>
+      </div>
+
+      <h6>haircut</h6>  
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4 details">
+          <h3>Clipper Cut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $39</h3>
+          <p>A haircut using clippers to achieve an ultra-short design. (30 min)</p>
+        </div>
+  
+        <div class="col-sm-4  details">
+          <h3>Kids Haircut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $29</h3>
+          <p>A haircut on a child age 10 & under.(30 min)</p>
+        </div>
+      </div>
+  
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4  details">
+          <h3>Signature Haircut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $49</h3>
+          <p>A haircut, trim, shape on anyone over the age of 10 with a customized conditioning treatment. (1 hr 15 min)</p>
+        </div>
+  
+        <div class="col-sm-4  details">
+          <h3>Bang Trim &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $19</h3>
+          <p>A trim on the bang area. Shampoo, conditioner and scalp massage not included. (15 min)</p>
+        </div>
+      </div>
+
+      <h6>color</h6>  
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4 details">
+          <h3>All-Over Color &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $30</h3>
+          <p>An all-over application of a single hair color from roots to ends. (1 hr 45 min)</p>
+        </div>
+  
+        <div class="col-sm-4  details">
+          <h3>Full Root Touch-up &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $59</h3>
+          <p>An application of hair color to the root area only. (1 hr 45 min)</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <a type="button" class="btn" href="#">Book An Appointment</a>
+      </div>
+
+
+
+      <div id="makeup">
+        <h3>makeup</h3>
+        <p>Complete your service with beautiful makeup and<br>simply be amazing with complete look.</p>
+      </div>
+      
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4 details">
+          <h3>Complimentary Touch-up &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $30</h3>
+          <p>Complete your service with this quick touch up, or pop in and meet with an available service professional or retail beauty advisor. (15 min)</p>
+        </div>
+
+        <div class="col-sm-4  details">
+          <h3>Everyday Makeup Application &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $39</h3>
+          <p>Put your fresh face forward. This make up application will have you looking your best.(45 min)</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-sm-4  details">
+          <h3>Formal Makeup Application &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $49</h3>
+          <p>A make up application that includes enhanced make up techniques for a more dramatic look. (60 min)</p>
+        </div>
+
+        <div class="col-sm-4  details">
+          <h3>Cocktail Makeup &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $55</h3>
+          <p>A make up application that includes enhanced make up techniques for a more dramatic look. (60 min)</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <a type="button" class="btn" href="#">Book An Appointment</a>
+      </div>
+    </div>
+  <!-- </div> -->
+  </section>
+
+
+
+<!-- footer start here -->
+ <footer id="footer" style="position: absolute;">
+  <div class="row justify-content-evenly">
+    <div class="col-lg-2">
+      <img src="images/logo.svg" alt="logo">
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 aboutus">
+      <ul>
+        <li class="h4">about us</li>
+        <li>Hair Salon was founded in<br class="col-md-2 d-lg-none">
+           2008 with the mission of<br class="col-md-2 d-lg-none">
+           providing hair care services<br class="col-md-2 d-lg-none">
+           with a professional but<br class="col-md-2 d-lg-none">
+           casual atmosphere.
+        </li><br>
+        <li class="social-media">
+          <span class="bi bi-facebook"></span>
+          <span class="bi bi-twitter"></span>
+          <span class="bi bi-whatsapp"></span>
+          <span class="bi bi-instagram"></span>
+          <span class="bi bi-google"></span>
+        </li>
+      </ul>
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 link">
+      <ul>
+        <li class="h4">coustomer care</li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="service.html">service</a></li>
+        <li><a href="bride.html">Bride</a></li>
+        <li><a href="cource.html">cource</a></li>
+        <li><a href="appointment.html">appointment</a></li>
+        <li><a href="contact.html">contact us</a></li>
+      </ul>
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 newsletter">
+      <ul>
+        <li class="h4">news letters</li>
+        <li>Enter your email address to get<br class="col-md-2 d-lg-none">
+            latest updates and offers from us.
+        </li>
+        <li>
+          <form>
+            <div class="form-group col-sm-6 col-md-6 col-lg-12 mt-3">
+              <input type="text" name="email" placeholder="Email" value="email" class="form-control">
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 contact">
+      <ul>
+        <li class="h4">contact us</li>
+        <li>7094857568</li><br>
+        <li>@beautysalon.com</li><br>
+        <li>85Royal Street,London E1 8LG, UK</li>
+      </ul>
+    </div>
+  </div>
+  <hr class=" container-fluid bg-light">
+  <p class="text-light text-center">© Glam Beauty Studio. All rights reserved 2020.</p>
+ </footer>
+
+
+
+ <script>
+  $(document).ready(function(){
+      $(".book").click(function(){
+      if(confirm('create your account and book an appointment'))
+      {
+      window.location='signup.html';
+      }
+      else 
+      {
+          window.location='service.html';
+      }    
+    })
+  })
+</script>
+</body>
+</html>

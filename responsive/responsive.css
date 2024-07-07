@@ -1,0 +1,334 @@
+@media (min-width: 320px) and (max-width: 480px)
+{
+   /* slider */
+   .carousel-item img
+   {
+      width: 100%;
+      height: 200px;
+   }
+   .carousel-caption 
+   {
+      margin-bottom: 5%;
+   }
+   .carousel-caption p
+   {
+      font-size: 20px;
+   }
+   .carousel-caption a
+   {
+      font-size: 10px;
+   }
+   /* service */
+   .page h1
+   {
+      font-size: 20px;
+   }
+   .Service-icon img, .Service-icon1 img
+   {
+      width: 40px;
+      height: 40px;
+   }
+   .Service-icon p, .Service-icon1 p
+   {
+      font-size: 10px;
+   }
+   .Service-icon img:hover, .Service-icon1 img:hover
+   {
+      width: 50px;
+      height: 50px;
+   }
+   .Service-icon p:hover, .Service-icon1 p:hover
+   {
+      font-size: 12px;
+   }
+   .service-details p
+   {
+      font-size: 15px;
+   }
+   .service-details a
+   {
+      font-size: 10px;
+      margin-left: 37%;
+   }
+   #nail h3, #brow h3, #hair h3, #makeup h3
+   {
+      font-size: 20px;
+   }
+   #nail p, #brow p, #hair p, #makeup p
+   {
+      font-size: 9px;
+   }
+   .details h3
+   {
+      font-size: 15px;
+   }
+   .details p
+   {
+      font-size: 10px;
+   }
+   .book button
+   {
+      font-size: 9px;
+   }
+   /* work */
+   .img-details img
+   {
+      width: 150px;
+      height: 130px;
+   }
+   .img-details p
+   {
+      font-size: 7px;
+      letter-spacing: 0;
+   }
+}
+@media (min-width :481px) and (max-width : 768px)
+{
+   /* slider */
+   .carousel-item img
+   {
+      width: 100%;
+      height: 250px;
+   }
+   .carousel-caption 
+   {
+      margin-bottom: 5%;
+   }
+   .carousel-caption p
+   {
+      font-size: 25px;
+   }
+   .carousel-caption a
+   {
+      font-size: 10px;
+   }
+   /* service */
+   .page h1
+   {
+      font-size: 20px;
+   }
+   .Service-icon img, .Service-icon1 img
+   {
+      width: 50px;
+      height: 50px;
+   }
+   .Service-icon p, .Service-icon1 p
+   {
+      font-size: 15px;
+   }
+   .Service-icon img:hover, .Service-icon1 img:hover
+   {
+      width: 60px;
+      height: 60px;
+   }
+   .Service-icon p:hover, .Service-icon1 p:hover
+   {
+      font-size: 15px;
+   }
+   .service-details p
+   {
+      font-size: 20px;
+   }
+   .service-details a
+   {
+      font-size: 15px;
+      margin-left: 37%;
+   }
+   #nail h3, #brow h3, #hair h3, #makeup h3
+   {
+      font-size: 25px;
+   }
+   #nail p, #brow p, #hair p, #makeup p
+   {
+      font-size: 10px;
+   }
+   .details h3
+   {
+      font-size: 15px;
+   }
+   .details p
+   {
+      font-size: 10px;
+   }
+   .book button
+   {
+      font-size: 10px;
+   }
+   /* work */
+   .img-details img
+   {
+      width: 200px;
+      height: 180px;
+   }
+   .img-details p
+   {
+      font-size: 10px;
+      letter-spacing: 0;
+   }
+}
+@media (min-width :769px) and (max-width : 1024px)
+{
+   /* slider */
+   .carousel-item img
+   {
+      width: 100%;
+      height: 350px;
+   }
+   .carousel-caption 
+   {
+      margin-bottom: 5%;
+   }
+   .carousel-caption p
+   {
+      font-size: 30px;
+   }
+   .carousel-caption a
+   {
+      font-size: 15px;
+   }
+   /* service */
+   .page h1
+   {
+      font-size: 25px;
+   }
+   .Service-icon img, .Service-icon1 img
+   {
+      width: 60px;
+      height: 60px;
+   }
+   .Service-icon p, .Service-icon1 p
+   {
+      font-size: 20px;
+   }
+   .Service-icon img:hover, .Service-icon1 img:hover
+   {
+      width: 70px;
+      height: 70px;
+   }
+   .Service-icon p:hover, .Service-icon1 p:hover
+   {
+      font-size: 20px;
+   }
+   .service-details p
+   {
+      font-size: 20px;
+   }
+   .service-details button
+   {
+      font-size: 15px;
+      margin-left: 42%;
+   }
+   #nail h3, #brow h3, #hair h3, #makeup h3
+   {
+      font-size: 30px;
+   }
+   #nail p, #brow p, #hair p, #makeup p
+   {
+      font-size: 12px;
+   }
+   .details h3
+   {
+      font-size: 18px;
+   }
+   .details p
+   {
+      font-size: 12px;
+   }
+   .book button
+   {
+      font-size: 12px;
+   }
+   /* work */
+   .img-details img
+   {
+      width: 250px;
+      height: 230px;
+   }
+   .img-details p
+   {
+      font-size: 12px;
+      letter-spacing: 2px;
+   }
+}
+@media (min-width :1025px) and (max-width : 1200px)
+{
+   /* slider */
+   .carousel-item img
+   {
+      width: 100%;
+      height: 450px;
+   }
+   .carousel-caption 
+   {
+      margin-bottom: 9%;
+   }
+   .carousel-caption p
+   {
+      font-size: 35px;
+   }
+   .carousel-caption a
+   {
+      font-size: 15px;
+   }
+   /* service */
+   .page h1
+   {
+      font-size: 30px;
+   }
+   .Service-icon img, .Service-icon1 img
+   {
+      width: 70px;
+      height: 70px;
+   }
+   .Service-icon p, .Service-icon1 p
+   {
+      font-size: 25px;
+   }
+   .Service-icon img:hover, .Service-icon1 img:hover
+   {
+      width: 80px;
+      height: 80px;
+   }
+   .Service-icon p:hover, .Service-icon1 p:hover
+   {
+      font-size: 25px;
+   }
+   .service-details p
+   {
+      font-size: 20px;
+   }
+   .service-details button
+   {
+      margin-left: 45%;
+   }
+   #nail h3, #brow h3, #hair h3, #makeup h3
+   {
+      font-size: 35px;
+   }
+   #nail p, #brow p, #hair p, #makeup p
+   {
+      font-size: 15px;
+   }
+   .details h3
+   {
+      font-size: 20px;
+   }
+   .details p
+   {
+      font-size: 15px;
+   }
+   .book button
+   {
+      font-size: 15px;
+   }
+   /* work */
+   .img-details img
+   {
+      width: 300px;
+      height: 280px;
+   }
+   .img-details p
+   {
+      font-size: 15px;
+   }
+}

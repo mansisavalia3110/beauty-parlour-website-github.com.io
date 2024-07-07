@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- style css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <!-- responsive css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='responsive/responsive.css'>
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- bootstrap icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- scroll animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animate style link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- jquery link -->
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+   
+</head>
+<body>
+<!-- navbar start here -->
+  <nav class="navbar navbar-expand-xl sticky-top">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="images/logo.svg" alt="logo">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+      <div class="offcanvas-header">
+        <img class="offcanvas-title" id="offcanvasNavbarLabel" src="images/logo.svg" alt="logo">
+        <a data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg text-light"></i></a>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-1">
+          <li class="nav-item"><a class="nav-link" id="link" href="index.html">home</a></li>
+    
+          <li class="nav-item"><a class="nav-link" id="link" href="service.html">services</a></li>
+    
+          <li class="nav-item"><a class="nav-link" id="link" href="bride.html">bridal</a></li>
+    
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="link" data-bs-toggle="dropdown" href="cource.html">Courses</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="link1" href="basic cource.html">basic courses</a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" id="link1" href="advance cource.html">advance courses</a></li>
+          </ul>
+          </li>
+    
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="link" data-bs-toggle="dropdown" href="appointment.html">appointment</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="link1" href="login.html">login</a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" id="link1" href="signup.html">sign up</a></li>
+          </ul>
+          </li>
+    
+          <li class="nav-item"><a class="nav-link" id="link" href="contact.html">contact us</a></li>
+        </ul>
+        <form class="d-flex form">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <!-- toggle -->
+    <a class="navbar-toggler" id="toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="bi bi-list"></span>
+    </a>
+    </div>
+  </nav>
+
+
+
+<!-- cource start here -->
+  <section id="cource" data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="800">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+    <div class="page">
+      <h1>advance cource</h1>
+    </div>
+
+    <div class="container-fluid" id="cource-list">
+      <div class="d-lg-flex">
+        <div class="col-xl-3 cource-img">
+          <img src="images/cource 1.webp" alt="Bride advance Cource" data-bs-toggle="modal" data-bs-target="#cource-details-1">
+          <h6 class="mt-3">20-26 MARCH</h6>
+          <h5>Bride advance Cource</h5>
+          <h6>$ 90</h6>
+        </div>
+  
+        <div class="col-xl-3 cource-img">
+          <img src="images/cource 2.webp" alt="Makeup advance Cource" data-bs-toggle="modal" data-bs-target="#cource-details-2">
+          <h6 class="mt-3">15-18 MARCH</h6>
+          <h5>Makeup advance Cource</h5>
+          <h6>$ 50</h6>
+        </div>
+  
+        <div class="col-xl-3 cource-img">
+          <img src="images/cource 3.jpg" alt="Nail advance Cource"  data-bs-toggle="modal" data-bs-target="#cource-details-3">
+          <h6 class="mt-3">10-12 MARCH</h6>
+          <h5>Nail advance Cource</h5>
+          <h6>$ 30</h6>
+        </div>
+  
+        <div class="col-xl-3 cource-img">
+          <img src="images/cource 4.webp" alt="Hair advance Cource" data-bs-toggle="modal" data-bs-target="#cource-details-4">
+          <h6 class="mt-3">19-21 MARCH</h6>
+          <h5>Hair advance Cource</h5>
+          <h6>$ 50</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- footer start here -->
+ <footer id="footer">
+  <div class="row justify-content-evenly">
+    <div class="col-lg-2">
+      <img src="images/logo.svg" alt="logo">
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 aboutus">
+      <ul>
+        <li class="h4">about us</li>
+        <li>Hair Salon was founded in<br class="col-md-2 d-lg-none">
+           2008 with the mission of<br class="col-md-2 d-lg-none">
+           providing hair care services<br class="col-md-2 d-lg-none">
+           with a professional but<br class="col-md-2 d-lg-none">
+           casual atmosphere.
+        </li><br>
+        <li class="social-media">
+          <span class="bi bi-facebook"></span>
+          <span class="bi bi-twitter"></span>
+          <span class="bi bi-whatsapp"></span>
+          <span class="bi bi-instagram"></span>
+          <span class="bi bi-google"></span>
+        </li>
+      </ul>
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 link">
+      <ul>
+        <li class="h4">coustomer care</li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="service.html">service</a></li>
+        <li><a href="bride.html">Bride</a></li>
+        <li><a href="cource.html">cource</a></li>
+        <li><a href="appointment.html">appointment</a></li>
+        <li><a href="contact.html">contact us</a></li>
+      </ul>
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 newsletter">
+      <ul>
+        <li class="h4">news letters</li>
+        <li>Enter your email address to get<br class="col-md-2 d-lg-none">
+            latest updates and offers from us.
+        </li>
+        <li>
+          <form>
+            <div class="form-group col-sm-6 col-md-6 col-lg-12 mt-3">
+              <input type="text" name="email" placeholder="Email" value="email" class="form-control">
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div><br class="col-md-2 mt-4">
+  
+    <div class="col-lg-2 contact">
+      <ul>
+        <li class="h4">contact us</li>
+        <li>7094857568</li><br>
+        <li>@beautysalon.com</li><br>
+        <li>85Royal Street,London E1 8LG, UK</li>
+      </ul>
+    </div>
+  </div>
+  <hr class=" container-fluid bg-light">
+  <p class="text-light text-center">© Glam Beauty Studio. All rights reserved 2020.</p>
+ </footer>
+
+
+
+<!-- cources modal start here -->
+<!-- bride -->
+ <div class="modal fade" role="dialog" id="cource-details-1">
+  <div class="modal-dialog" style=" min-width: 55%; margin-top: 5%;">
+    <div class="modal-content p-0">
+      <div class="row">
+        <div class="col-xl-6 d-none d-xl-block cource-img p-5" style="background-color: #5E4321;">
+          <img src="images/cource 1.webp" alt="Bride Advance Cource"  style="width: 290px; height: 350px;">
+        </div>
+
+        <div class="col-xl-6 cource-details p-5">
+          <h6>20 - 26 MARCH</h6>
+          <h2>Bride Advance Cource</h2>
+          <p>Our talented hair specialists are ready to share their secrets and all the knowledge they have. Do not loose this opportunity, it’s worth it, trust us.</p><br>
+          <h5>Course Price: $90</h5><br>
+          <a type="button" class="btn" id="button" href="#">Confirm Cource</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<!-- makeup -->
+ <div class="modal fade" role="dialog" id="cource-details-2">
+  <div class="modal-dialog" style=" min-width: 55%; margin-top: 5%;">
+    <div class="modal-content p-0">
+      <div class="row">
+        <div class="col-xl-6 d-none d-xl-block cource-img p-5" style="background-color: #5E4321;">
+          <img src="images/cource 2.webp" alt="Makeup Advance Cource"  style="width: 290px; height: 350px;">
+        </div>
+
+        <div class="col-xl-6 cource-details p-5">
+          <h6>15-18 MARCH</h6>
+          <h2>Makeup Advance Cource</h2>
+          <p>Our talented hair specialists are ready to share their secrets and all the knowledge they have. Do not loose this opportunity, it’s worth it, trust us.</p><br>
+          <h5>Course Price: $50</h5><br>
+          <a type="button" class="btn" id="button1" href="#">Confirm Cource</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<!-- nail -->
+ <div class="modal fade" role="dialog" id="cource-details-3">
+  <div class="modal-dialog" style=" min-width: 55%; margin-top: 5%;">
+    <div class="modal-content p-0">
+      <div class="row">
+        <div class="col-xl-6 d-none d-xl-block cource-img p-5" style="background-color: #5E4321;">
+          <img src="images/cource 3.jpg" alt="Nail Advance Cource"  style="width: 290px; height: 350px;">
+        </div>
+
+        <div class="col-xl-6 cource-details p-5">
+          <h6>10-12 MARCH</h6>
+          <h2>Nail Advance Cource</h2>
+          <p>Our talented hair specialists are ready to share their secrets and all the knowledge they have. Do not loose this opportunity, it’s worth it, trust us.</p><br>
+          <h5>Course Price: $30</h5><br>
+          <a type="button" class="btn" id="button2" href="#">Confirm Cource</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-- makeup -->
+ <div class="modal fade" role="dialog" id="cource-details-4">
+  <div class="modal-dialog" style=" min-width: 55%; margin-top: 5%;">
+    <div class="modal-content p-0">
+      <div class="row">
+        <div class="col-xl-6 d-none d-xl-block cource-img p-5" style="background-color: #5E4321;">
+          <img src="images/cource 4.webp" alt="Hair Advance Cource"  style="width: 290px; height: 350px;">
+        </div>
+
+        <div class="col-xl-6 cource-details p-5">
+          <h6>19-21 MARCH</h6>
+          <h2>Hair Advance Cource</h2>
+          <p>Our talented hair specialists are ready to share their secrets and all the knowledge they have. Do not loose this opportunity, it’s worth it, trust us.</p><br>
+          <h5>Course Price: $50</h5><br>
+          <a type="button" class="btn" id="button3" href="#">Confirm Cource</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+
+ <script>
+  $(document).ready(function(){
+      $("#button, #button1, #button2, #button3").click(function(){
+
+      var name=prompt('Enter your mobile number?');
+      if(confirm('click and open next page'))
+      {
+      window.location='confirm cource.html';
+      }
+      else 
+      {
+          window.location='advance cource.html';
+      } 
+  }) 
+  })
+</script>
+</body>
+</html>
